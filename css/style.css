@@ -1,0 +1,264 @@
+html{
+    font-family:"Poppins" ; 
+    font-size: 16px;
+    color: #333;
+ }
+ header{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url(../images/header1.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 40px;
+}
+.main-nav{
+    list-style: none;
+    display: flex;
+}
+.main-nav li{
+    margin-left: 30px;
+}
+.main-nav li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.main-nav li a:hover{
+    text-decoration: underline;
+    color: rgb(198, 92, 108);
+}
+.hero{
+    position: absolute;
+    top: 40%;
+    left: 15%;
+}
+.hero h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.btn{
+    border: solid 1px rgb(198, 92, 108);
+    margin-right: 15px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: rgb(198, 92, 108);
+    text-decoration: none;
+    margin-left: 50px;
+    
+
+}
+.btn:hover{
+    color: white;
+    background-color: black;
+    text-decoration: underline;
+}
+section{
+    padding: 40px 0px ;
+}
+h2{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    word-spacing: 3px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+hr{
+  width: 200px;
+  border: solid 3px  rgb(198, 92, 108); 
+  background-color: rgb(198, 92, 108) ;
+  margin-bottom: 30px;
+}
+.feat-desc{
+    width: 60%;
+    margin-left: 20%;
+    line-height: 1.5;
+}
+.box i{
+    font-size: 40px;
+    color: rgb(198, 92, 108) ;
+}
+.box p{
+    text-align: left;
+    line-height: 1.5;
+}
+#cats{
+    padding: 0;
+}
+.cat{
+     padding: 0;
+     margin-bottom: -5px;
+}
+.cat img{
+    width: 100%;
+}
+.l-work{
+    text-align: right;
+}
+.l-work img{
+   width: 40%;
+   margin-right: 15px;
+   border-radius: 40px;
+}
+
+.step{
+   display: flex;
+   align-items: center;
+   margin-bottom: 40px;
+}
+.step div{
+   padding: 15px;
+   margin-right: 15px;
+   border: solid 4px rgb(198, 92, 108) ;
+   border-radius: 20px;
+}
+.download img{
+   height: 50px;
+   margin-top: 50px;
+}
+.city img{
+    width: 100%;
+}
+.city-info{
+    margin-bottom: 15px;
+}
+.city-info i{
+    color: rgb(198, 92, 108) ;
+    margin-right: 15px;
+}
+#cattymonials{
+    background: linear-gradient(rgba(0, 0, 0, .7),rgba(0, 0, 0, 0.7)) , url(../images/custom.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+   
+}
+#cattymonials i {
+    font-size: 50px;
+}
+#cattymonials p{
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+#cattymonials img{
+    width: 60px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.price1{
+    color:white ;
+    background-color:rgb(22, 12, 12);
+  /** background-color:rgb(198, 92, 108) ;**/
+    height: 250px;
+    border-radius: 20px;
+    
+}
+
+.btn1{
+    border: solid 1px rgb(198, 92, 108);
+    
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+    margin-left: 135px;  
+}
+.btn1:hover{
+    color: white;
+    background-color:rgb(198, 92, 108) ;
+    border-radius: 20px;
+}
+.p-n{
+    font-weight: 500;
+    font-size: 20px;
+
+}
+span{
+    font-size: 15px;
+}
+.box1{
+    list-style: none;
+}
+#contact form{
+
+    margin-top: 50px;
+}
+input[type=text],
+input[type=email],
+select,textarea
+{
+ width: 100%;
+ margin-bottom: 15px;
+ padding: 7px;
+ border: solid 1px #ddd;
+ border-radius: 3px;
+}
+input[type=checkbox]{
+
+    margin-bottom: 15px;
+}
+button{
+
+    background-color: rgb(198, 92, 108);
+    border: solid 2px black;
+    border-radius: 15px;
+    color:white;
+    padding: 10px 10px;
+    margin-top: 20px;
+}
+button:hover{
+
+    background-color: transparent;
+    color:rgb(198, 92, 108);
+}
+footer{
+    padding: 30px 0px;
+    background-color: #333;
+    text-align: center;
+}
+footer p{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+.fotter-nav ,.social-nav{
+    list-style: none;
+    display: flex;
+}
+.social-nav{
+    margin-left: 300px;
+}
+.fotter-nav li,.social-nav li{
+    margin-left: 30px;
+}
+.fotter-nav li a,.social-nav li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.fotter-nav li a:hover,.social-nav li a:hover{
+    text-decoration: underline;
+    color: rgb(198, 92, 108);
+}
+
+
+
